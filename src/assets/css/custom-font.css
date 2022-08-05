@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow|Space+Mono|Lato|Noto+Sans+SC|Noto+Sans+TC|Noto+Sans+JP|Noto+Sans+KR|Fira+Code");
+
+
+:root {
+    --cjk-sans: "Noto Sans SC", "Noto Sans TC", "Noto Sans JP", "Noto Sans KR";
+}
+
+.font-archivo-narrow {
+    font-family: "Archivo Narrow", var(--cjk-sans);
+}
+
+.font-space-mono {
+    font-family: "Space Mono", var(--cjk-sans);
+}
+
+.font-lato {
+    font-family: "Lato", var(--cjk-sans);
+}
+
+code {
+    font-family: "Fira Code", var(--cjk-sans);
+}
