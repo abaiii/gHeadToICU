@@ -5,9 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>About | Head to ICU</title>
         <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.2/css/all.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body class="bg-stone-200 dark:bg-gray-900 dark:text-white">
-        <div id="app"></div>
-        <script type="module" src="/src/about.js"></script>
+        <div class="flex min-h-screen w-full justify-center items-center flex-col">
+            <div class="text-3xl lg:text-6xl font-space-mono">
+                About <Name />
+            </div>
+            <div class="mt-2 font-archivo-narrow text-xl">
+                <a href="/">Go Back</a>
+            </div>
+            <div class="mt-2 font-archivo-narrow text-xl ml-2 mr-2 lg:ml-0 lg:mr-0 w-full lg:w-3/5">
+                <Name /> 是 <a href="https://francie.cc">Francie Jiang</a> 使用她刚学的 <a href="https://vuejs.org">Vue.js</a> 和 <a href="`https://tailwindcss.com">Tailwind CSS</a> 写出来的垃圾东西（ <br>
+                论具体来由的话，就是她觉得自己这个精神状态（或者健康状况）迟早要被送去 <a href="https://www.standardsofcare.org/understanding-care/types/intensive-care-unit/">ICU</a>，于是她就去搜了 <code>headto.icu</code> 这个域名，然后发现它一年只要十块钱，于是直接去注册了，然后把这个玩意部署在了 <a href="https://vercel.app">Vercel</a> 上面。<br>
+                但是因为 Francie 太菜惹，所以她其实又写了一个 <code>Python</code> 的程序用来生成存储 <code>post</code> 内容的 <code>postContent.js</code> 。<br>
+                未来可能会考虑使用这个域名做一些更好玩的事情，比如在这上面写点文章什么的，或者说把这个东西做成一个开放的社交平台一类的东西（？）<br>
+                所以说，如果你对这玩意有兴趣，可以考虑通过 <a href="https://afdian.net/@franciejiang">爱发电</a> 捐助一下我（？）如果真的有人捐助的话，捐助者的名字就会出现在 <code>donators.txt</code> 这个文件里面（
+            </div>
+        </div>
     </body>
 </html>
