@@ -1,29 +1,7 @@
 # headtoicu
 
-This template should help get you started developing with Vue 3 in Vite.
+[headto.icu](https://headto.icu) is a website that is created during a period when **Francie Jiang** dared not to use a VPN to watch videos on YouTube.
 
-## Recommended IDE Setup
+She thought that with her current mental and physical health situation, she'll eventually head to ICU. Therefore, she searched for the domain name `headto.icu` just out of curiosity, which turned out to be cheap to register. She registered it at once and designed the web pages for two hours for releasing them on [Vercel](https://vercel.app).
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+She may use this domain name for things that are more meaningful or entertaining (i.e. use it other than an alternative of Twitter or Mastodon), such as posting some articles on it or make it a social media platform that is free (as in **free speech**) and open.
